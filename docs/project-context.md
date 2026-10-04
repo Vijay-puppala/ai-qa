@@ -3,8 +3,9 @@
 Everything a new contributor (human or AI) needs before touching this
 repository. Read this, then `docs/decisions.md`, then `CLAUDE.md`.
 
-**Last updated**: 2026-10-04 · **Nothing is committed yet** — the repository
-is initialised on `main` with ~16 untracked paths.
+**Last updated**: 2026-10-04 · Committed and pushed: 151 files on `main` at
+`github.com/Vijay-puppala/ai-qa` (public). `.env` and `reports/` are
+git-ignored and were verified absent from the remote.
 
 ---
 
