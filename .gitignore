@@ -1,0 +1,47 @@
+# Local environment configuration - NEVER commit (FR-022)
+.env
+.env.local
+.env.*.local
+
+# Isolated project-local environment (FR-006)
+.venv/
+venv/
+
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Test and tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+.uv-cache/
+
+# Generated output artifacts (FR-018)
+reports/
+test-results/
+playwright-report/
+allure-results/
+
+# Playwright browser cache (machine-local, version-matched binaries)
+ms-playwright/
+
+# Editor and OS noise
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Approval records (feature 004) are COMMITTED, not generated output.
+# The broad rules above exclude generated directories; this negation keeps the
+# audit trail in the repository. Without it `verify` reports a clean repository
+# as entirely unapproved - which reads as "nothing reviewed yet" rather than
+# "the records are being discarded".
+!approvals/
+!approvals/**

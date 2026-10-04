@@ -1,0 +1,21 @@
+{
+  "decision": "approved",
+  "ticket": "DC-11",
+  "design_path": "tests/ui/test_login_screen.py",
+  "design_digest": "1abdac1f50d623f9",
+  "approver": "vijayanand.hyd@gmail.com",
+  "author": "vijayanand.hyd@gmail.com",
+  "policy_require_second_person": false,
+  "timestamp": "20261004T063740Z",
+  "test_names": [
+    "test_login_form_presents_every_required_control",
+    "test_password_is_masked_by_default",
+    "test_visibility_toggle_reveals_and_re_masks_the_password",
+    "test_submitting_an_empty_email_shows_a_required_field_message",
+    "test_submitting_an_empty_password_shows_a_required_field_message",
+    "test_a_malformed_email_shows_a_format_validation_message",
+    "test_validation_messages_clear_once_the_input_is_corrected",
+    "test_duplicate_submission_is_prevented_while_authenticating",
+    "test_forgot_password_link_navigates_away_from_the_login_form"
+  ]
+}

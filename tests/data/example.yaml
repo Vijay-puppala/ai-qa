@@ -1,0 +1,15 @@
+# Test data (FR-017). Top-level mapping of case identifiers to case bodies.
+# Case names are used in test parametrisation; bodies are consumed by the test.
+# Configuration never lives here - see .env.example.
+
+valid_search:
+  query: "playwright"
+  expected_min_results: 1
+
+empty_search:
+  query: ""
+  expected_min_results: 0
+
+unicode_search:
+  query: "日本語"
+  expected_min_results: 0
